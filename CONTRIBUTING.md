@@ -25,7 +25,6 @@ Hacktoberfest-2023
 
 ```[
 git clone https://github.com/tinkten7/farmbuddy2023
-
 ```
 - Navigate to project directory.
 ```
@@ -60,9 +59,7 @@ git push origin my-new-branch
 # FAQs (Frequently Asked Questions)
 
 - Who all can contribute?
-- Anyone with a github account and who is signed up for
-[hacktoberfest](https://hacktoberfest.com/) :)
-
+  - Anyone with a github account and who is signed up for [hacktoberfest](https://hacktoberfest.com/) :)
 - Are you getting paid for this?
   - Sadly no. But we think we should. This is 100% unofficial and we do it for fun, fame and glory.
 - How many pull request (PR) must be made, if I want to get an awesome swag from Hacktoberfest 2023?
