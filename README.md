@@ -45,7 +45,6 @@ JavaScript
 ## Backend
 ```
 Google FireBase
-Amd Instance(T2D Server)
 ```
 ### APIs
 ```
@@ -75,42 +74,6 @@ Unsplash
 -	Farmers Convinience To Check Daily Updates Of Weather And Plan Their Farming Accordingly.
 - By maps It is easy To directly visit your nearby farms.
 -	The platform is secure and provides encryption for sensitive data such as customer payment information.
-## Getting Started
-1. To get started with the FarmBuddy platform, users must first create an account.
-2. The price of the product will be daily updated on the standard basis of their locally state government.
-3. With the help of the maps provided they can meet the individual or transport the goods.
-4. Customers can contact farmers virtually through the video calling feature .
-5.Rating will be done on overall average based upon their time of transport,quality of the product.
-## Future Improvements
-### Some future improvements for the farm Buddy platform could include:
--	Integrating additional payment options to provide customers with more flexibility.
--	Adding a feature that allows customers to rate and review sellers.
--	Incorporating data analytics to provide farmers with insights on product demand and customer preferences.etc..
-- Adding other technological api's that farmers needed for smart farming.
-## Conclusion
-In conclusion, farm Buddy is a farmer-to-customer online marketplace platform that provides a simple, secure, and cost-effective way for farmers to connect with customers directly. The platform leverages modern technologies such as HTML, CSS, Bootstrap, JavaScript,and AMD Instances to provide a seamless and efficient user experience.Implemented an in-built agrichat bot providing farmers with interactive assistance and answering their questions in real-time.
-## Instance Information
-```
-Machine Type-t2d-standard-1
-CPU Platform-AMD Milian
-Architecture-x86/64
-Zone-Las Vegas(us-west4-b) 
-```
-- [34.125.86.74](http://34.125.86.74)
-<img src="https://raw.githubusercontent.com/STRIDER1512/FarmBuddy/main/FarmBuddy/images/gfg2.png"><br>
 
-##  Contributors:
+In conclusion, farm Buddy is a farmer-to-customer online marketplace platform that provides a simple, secure, and cost-effective way for farmers to connect with customers directly. The platform leverages modern technologies such as HTML, CSS, Bootstrap, JavaScript to provide a seamless and efficient user experience.Implemented an in-built agrichat bot providing farmers with interactive assistance and answering their questions in real-time.
 
----
-- Srikar Tenneti-Developer,UI/UX Designer -[GitHub](https://github.com/tinkten7)  - [LinkedIn](https://www.linkedin.com/in/srikar-tenneti-849522235/)
-
----
-- Sriraj Tata-Developer,Cloud Operator,Tester -[GitHub](https://github.com/STRIDER1512)    - [LinkedIn](https://www.linkedin.com/in/sriraj-tata-0499b7228/)
-
----
-- Sudhish Amiti-Developer,Backend Developer -[LinkedIn](https://www.linkedin.com/in/sudhish-amiti-491805224/)
-
----
-- Himaja Vendra-Developer,Editor -[GitHub](https://github.com/himajavendra)   - [LinkedIn](https://www.linkedin.com/in/himaja-vendra-48581324b/)
-
----
