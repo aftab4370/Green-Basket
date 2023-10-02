@@ -70,5 +70,10 @@ The chatbot is designed to assist customers in finding answers to Frequently Ask
 ## Conclusion
 In conclusion, farm Buddy is a farmer-to-customer online marketplace platform that provides a simple, secure, and cost-effective way for farmers to connect with customers directly. The platform leverages modern technologies such as HTML, CSS, Bootstrap, JavaScript to provide a seamless and efficient user experience.Implemented an in-built agrichat bot providing farmers with interactive assistance and answering their questions in real-time.
 
-## Improvements
+# Improvements
+- Supply chain must be clearly enabled to bring this project to reality.
+- Own a Farm page should be changed for it's UI.
+- A clear Products should be developed to take inputs from the users and sell their products in our page.
+- Database connectivity is also important to make this a better project to build.
 
+# Happy Open-Sourcing 🤞🏼
