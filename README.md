@@ -76,6 +76,6 @@ In conclusion, farm Buddy is a farmer-to-customer online marketplace platform th
 - Own a Farm page should be changed for its UI.
 - A clear Products page should be developed to take inputs from the users and sell their products on our page.
 - Database connectivity is also important to make this a better project to build.
-- Any new additions or updations to the App are welcome.
+- Any AI, ML , Data Analytics methodologies are welcomed for implementation.
 
 # Happy Open-Sourcing 🤞🏼
