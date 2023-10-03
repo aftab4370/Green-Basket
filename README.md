@@ -57,21 +57,13 @@ Map Box
 DialogFlowAPI
 The chatbot is designed to assist customers in finding answers to Frequently Asked Questions(FAQ's)
 ```
-## Features
-### The FarmBuddy platform provides the following features:
-- A simple and intuitive user interface that allows farmers to list their products and customers to search for and purchase these products.
-- Customers can create and manage their profiles, view their order , and track their orders.
-- Farmers can manage their product listings, view orders, and manage their profiles.
-- Customers or learners can directly or virtually interact with the farm patrons.
--	Farmer's Convenience To Check Daily Updates Of Weather And Plan Their Farming Accordingly.
-- By maps, It is easy to visit your nearby farms directly.
--	The platform is secure and provides encryption for sensitive data such as customer payment information.
-  
+
 ## Conclusion
 In conclusion, farm Buddy is a farmer-to-customer online marketplace platform that provides a simple, secure, and cost-effective way for farmers to connect with customers directly. The platform leverages modern technologies such as HTML, CSS, Bootstrap, and JavaScript to provide a seamless and efficient user experience. Implemented an in-built agrichat bot providing farmers with interactive assistance and answering their questions in real time.
 
 # Improvements
 - The supply chain must be clearly enabled to bring this project to reality.
+- Dashboard can be made into dynamic for the updation of Order details.
 - Also expecting rich UI changes in Plant Detection, Sign in/up, and Own a Farm pages.
 - Own a Farm page should be changed for its UI.
 - A clear Products page should be developed to take inputs from the users and sell their products on our page.
