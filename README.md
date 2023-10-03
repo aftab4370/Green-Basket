@@ -14,23 +14,23 @@ In Agriculture sector there has been always middlemen between the customer and f
 FARMER-->CONTACT BUYER-->MEETING-->NEGOTIATION-->SAMPLE CHECK-->SALES CONTRACT-->ADVANCED PAYMENT-->PRODUCT LOAD-->TRUCK-->CUSTOMS-->SHIP-->BATCH CHECK-- >UNLOAD-->TRUCK-->QUALITY CHECK-->DELIVERY-->FINAL PAYMENT-->SELLING TO VENDORS-->VENDORS SELLING-->LOCAL RETAILERS-->TO US(CUSTOMERS).
 
 ---
-This has to be the whole process for an agricultural product to reach from farmer to the customer,in this process the product may be damaged and the product may be surplused to the retailer and sometimes there may be an inflation of the product.A number of global trends are influencing food security, poverty, and the overall sustainability of food and agricultural systems.As per the reports by 2050 we will need to produce 70 percent more food. Meanwhile, agriculture’s share of global GDP has shrunk to just 3 percent, one-third its contribution just decades ago. Roughly 800 million people worldwide suffer from hunger. And under a business-as-usual scenario, 8 percent of the world’s population (or 650 million) will still be undernourished by 2030.To overcome this problem everyone should learn farming.It is even lot better to grow your own food item in your house-balcony,terrace etc... Everyone loves greenary but they are supporting that with the artificial grass why couldnt there be a normal creepers like Bottle gourd, watermelon, pumpkin, strawberry etc..There are many people who wants to learn farming in either offline or virtually but they doesnt know someone in the farming sector so they might be stopped,so this shouldn't be happened so we provide the Farm Buddy patrons(Farmers) who are willing to teach farming with a minimum cost.Farmers are leaving the farming because of less money,so we provided a solution in our survey,teaching to the persons who are passionate about farming so the farmer will be profitted and we also.That's how we can overcome the food scarcity.The user may learn virtually by contacting the patron or by visiting the nearest location farm of the farm patron.The barren farms will also be given lease.To overcome this problems we thought and brought a solution via web application that is FarmBuddy.Farming should be the greatest hobby.
+This has to be the whole process for an agricultural product to reach from farmer to the customer, in this process the product may be damaged the product may be surplus to the retailer and sometimes there may be an inflation of the product. A number of global trends are influencing food security, poverty, and the overall sustainability of food and agricultural systems.
 ## About
-Farm Buddy is a farmer-to-customer,an online marketplace platform that aims to connect farmers directly with customers. The platform is designed to eliminate the need for intermediaries such as Brokers,Transport,thus reducing costs and providing better value for both farmers and customers.Another aim of the farm buddy is to provide an platform for everyone to learn farming.
+Farm Buddy is a farmer-to-customer, online marketplace platform that aims to connect farmers directly with customers. The platform is designed to eliminate the need for intermediaries such as Brokers and transport,thus reducing costs and providing better value for both farmers and customers. Another aim of the farm buddy is to provide a platform for everyone to learn farming.
 
 ### Problem statement
-1. Farmers couldn't sell their crops for their original worth price because of the middle-men .
+1. Farmers couldn't sell their crops for their original price because of the middlemen.
 2. Farmers lack of knowledge about diseases affecting their crops, leading to ineffective disease management practices.
-3. Farmers lack of access to up-to-date weather information, which affects their decision-making in crop management.
+3. Farmers lack access to up-to-date weather information, which affects their decision-making in crop management.
 4. Farmers lack of information on the land availability in other districts and states of the country.
 5. Farmers often have questions and need assistance in various agricultural aspects but lack reliable sources for guidance.
 ### Solution
 
-1. Developed an e-commerce web application that farmer(or)NGO can sell his product and customers can buy the product for minimum price. 
-2. Utilized an plant-id API for accurate and timely detection of plant diseases, helping farmers identify diseases early and take appropriate measures.
+1. Developed an e-commerce web application where a farmer can sell his product and customers can buy the product for a minimum price. 
+2. Utilized a plant-id API for accurate and timely detection of plant diseases, helping farmers identify diseases early and take appropriate measures.
 3. Utilized a weather API to provide real-time weather information to farmers, enabling them to make informed decisions in crop management.
-4. Utilized a map API to provide real time availabality of the farm lands which are left with rich fertility.
-5. Implemented an in-built agrichat bot powered by Google Dialogflow,providing farmers with interactive assistance and answering their questions in real-time.
+4. Utilized a map API to provide real-time availability of the farmlands which are left with rich fertility.
+5. Implemented an in-built agrichat bot powered by Google Dialogflow, providing farmers with interactive assistance and answering their questions in real time.
 <hr>
 
 
@@ -58,22 +58,24 @@ DialogFlowAPI
 The chatbot is designed to assist customers in finding answers to Frequently Asked Questions(FAQ's)
 ```
 ## Features
-### The farm Buddy platform provides the following features:
+### The FarmBuddy platform provides the following features:
 - A simple and intuitive user interface that allows farmers to list their products and customers to search for and purchase these products.
 - Customers can create and manage their profiles, view their order , and track their orders.
 - Farmers can manage their product listings, view orders, and manage their profiles.
-- Customers or learners can directly or virtually can interact with the farm patrons.
--	Farmers Convinience To Check Daily Updates Of Weather And Plan Their Farming Accordingly.
-- By maps It is easy To directly visit your nearby farms.
+- Customers or learners can directly or virtually interact with the farm patrons.
+-	Farmer's Convenience To Check Daily Updates Of Weather And Plan Their Farming Accordingly.
+- By maps, It is easy to visit your nearby farms directly.
 -	The platform is secure and provides encryption for sensitive data such as customer payment information.
   
 ## Conclusion
-In conclusion, farm Buddy is a farmer-to-customer online marketplace platform that provides a simple, secure, and cost-effective way for farmers to connect with customers directly. The platform leverages modern technologies such as HTML, CSS, Bootstrap, JavaScript to provide a seamless and efficient user experience.Implemented an in-built agrichat bot providing farmers with interactive assistance and answering their questions in real-time.
+In conclusion, farm Buddy is a farmer-to-customer online marketplace platform that provides a simple, secure, and cost-effective way for farmers to connect with customers directly. The platform leverages modern technologies such as HTML, CSS, Bootstrap, and JavaScript to provide a seamless and efficient user experience. Implemented an in-built agrichat bot providing farmers with interactive assistance and answering their questions in real time.
 
 # Improvements
-- Supply chain must be clearly enabled to bring this project to reality.
-- Own a Farm page should be changed for it's UI.
-- A clear Products should be developed to take inputs from the users and sell their products in our page.
+- The supply chain must be clearly enabled to bring this project to reality.
+- Also expecting rich UI changes in Plant Detection, Sign in/up, and Own a Farm pages.
+- Own a Farm page should be changed for its UI.
+- A clear Products page should be developed to take inputs from the users and sell their products on our page.
 - Database connectivity is also important to make this a better project to build.
+- Any new additions or updations to the App are welcome.
 
 # Happy Open-Sourcing 🤞🏼
