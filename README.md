@@ -44,7 +44,8 @@ JavaScript
 ```
 ## Backend
 ```
-Google FireBase
+Google
+FireBase
 ```
 ### APIs
 ```
