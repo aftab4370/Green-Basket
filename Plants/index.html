@@ -173,13 +173,13 @@ document.querySelector('.button').onclick = function sendIdentification() {
       import {getDatabase, ref, get, set, child, update, remove} from "https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js";  
  
       const firebaseConfig = { 
-  apiKey: "AIzaSyAYWp1h1C2AALmc39b6cqwv6GSqlWQrR1c", 
-  authDomain: "farmbuddy-106.firebaseapp.com", 
-  databaseURL: "https://farmbuddy-106-default-rtdb.asia-southeast1.firebasedatabase.app", 
-  projectId: "farmbuddy-106", 
-  storageBucket: "farmbuddy-106.appspot.com", 
-  messagingSenderId: "246405477593", 
-  appId: "1:246405477593:web:76c615bf7f242294317ac8" 
+        apiKey: process.env.API_KEY,
+        authDomain: process.env.AUTH_DOMAIN,
+        databaseURL: process.env.DATABASE_URL,
+        projectId: process.env.PROJECT_ID,
+        storageBucket: process.env.STORAGE_BUCKET,
+        messagingSenderId: process.env.MESSAGING_SENDER_ID,
+        appId: process.env.APP_ID,
 }; 
 // Initialize Firebase 
       const app = initializeApp(firebaseConfig); 
