@@ -21,86 +21,104 @@
       </div>
     </div>
 
-<div id="lod">
-    <div class="modal">
-      <form class="form">
-        <div class="credit-card-info--form">
-          <div class="input_container">
-            <label for="password_field" class="input_label"
-              >Card holder full name</label
-            >
-            <input
-              id="password_field"
-              class="input_field name"
-              type="text"
-              name="input-name"
-              title="Name"
-              placeholder="Enter your full name"
-            />
-          </div>
-          <div class="input_container">
-            <label for="password" class="input_label">Address</label>
-            <input
-              id="password"
-              class="input_field addr"
-              type="text"
-              name="input-name"
-              title="Address"
-              placeholder="Address"
-            />
-          </div>
-          <div class="input_container">
-            <label for="password_field" class="input_label">Phone Number</label>
-            <input
-              id="password_field"
-              class="input_field phone"
-              type="number"
-              name="input-name"
-              title="Phone Number"
-              placeholder="000-000-000"
-            />
-          </div>
-          <div class="input_container">
-            <label for="password_field" class="input_label">Card Number</label>
-            <input
-              id="password_field"
-              class="input_field card"
-              type="number"
-              name="input-name"
-              title="Card Number"
-              placeholder="0000 0000 0000 0000"
-            />
-          </div>
-          <div class="input_container">
-            <label for="password_field" class="input_label"
-              >Expiry Date / CVV</label
-            >
-            <div class="split">
+    <div id="lod">
+      <div class="modal">
+        <form class="form">
+          <div class="credit-card-info--form">
+            <div class="input_container">
+              <label for="password_field" class="input_label"
+                >Card holder full name</label
+              >
               <input
                 id="password_field"
-                class="input_field expiry"
+                class="input_field name"
                 type="text"
                 name="input-name"
-                title="Expiry Date"
-                placeholder="01/24"
-              />
-              <input
-                id="password_field"
-                class="input_field cvv"
-                type="number"
-                name="cvv"
-                title="CVV"
-                placeholder="CVV"
+                title="Name"
+                placeholder="Enter your full name"
               />
             </div>
+            <div class="input_container">
+              <label for="password" class="input_label">Address</label>
+              <input
+                id="password"
+                class="input_field addr"
+                type="text"
+                name="input-name"
+                title="Address"
+                placeholder="Address"
+              />
+            </div>
+            <div class="input_container">
+              <label for="password_field" class="input_label"
+                >Phone Number</label
+              >
+              <input
+                id="password_field"
+                class="input_field phone"
+                type="number"
+                name="input-name"
+                title="Phone Number"
+                placeholder="000-000-000"
+              />
+            </div>
+            <div class="input_container">
+              <label for="password_field" class="input_label"
+                >Card Number</label
+              >
+              <input
+                id="password_field"
+                class="input_field card"
+                type="number"
+                name="input-name"
+                title="Card Number"
+                placeholder="0000 0000 0000 0000"
+              />
+            </div>
+            <div class="input_container">
+              <label for="password_field" class="input_label"
+                >Expiry Date / CVV</label
+              >
+              <div class="split">
+                <input
+                  id="password_field"
+                  class="input_field expiry"
+                  type="text"
+                  name="input-name"
+                  title="Expiry Date"
+                  placeholder="01/24"
+                />
+                <input
+                  id="password_field"
+                  class="input_field cvv"
+                  type="number"
+                  name="cvv"
+                  title="CVV"
+                  placeholder="CVV"
+                />
+              </div>
+            </div>
           </div>
-        </div>
-        <input type="button" value="Checkout" class="purchase--btn" id="btn">
-      </form>
+          <input
+            type="button"
+            value="Checkout"
+            class="purchase--btn"
+            id="btn"
+          />
+        </form>
+      </div>
     </div>
-  </div>
-  <iframe width="560" height="315" style="display: none;" src="https://www.youtube.com/embed/hdI2bqOjy3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  <script src="../Scripts/checkout.js"></script>
+    <iframe
+      width="560"
+      height="315"
+      style="display: none"
+      src="https://www.youtube.com/embed/hdI2bqOjy3c"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <script src="../Scripts/checkout.js"></script>
     <script type="module">
       import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
       import {
@@ -119,67 +137,74 @@
       } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js";
 
       const firebaseConfig = {
-  apiKey: "AIzaSyAYWp1h1C2AALmc39b6cqwv6GSqlWQrR1c",
-  authDomain: "farmbuddy-106.firebaseapp.com",
-  databaseURL: "https://farmbuddy-106-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "farmbuddy-106",
-  storageBucket: "farmbuddy-106.appspot.com",
-  messagingSenderId: "246405477593",
-  appId: "1:246405477593:web:76c615bf7f242294317ac8"
-};
+        apiKey: process.env.API_KEY,
+        authDomain: process.env.AUTH_DOMAIN,
+        databaseURL: process.env.DATABASE_URL,
+        projectId: process.env.PROJECT_ID,
+        storageBucket: process.env.STORAGE_BUCKET,
+        messagingSenderId: process.env.MESSAGING_SENDER_ID,
+        appId: process.env.APP_ID,
+      };
       // Initialize Firebase
       const app = initializeApp(firebaseConfig);
       const db = getDatabase();
       const dbref = ref(db);
- 
-      const url = document.querySelector('#btn').addEventListener('click', ()=>
-      {
-        const name = document.querySelector('.name')
-        const addr = document.querySelector('#password').value;
-        const phno = document.querySelector('.phone').value;
-        const card = document.querySelector('.card')
-        const cvv = document.querySelector('.cvv')
-        const exp = document.querySelector('.expiry')
-        const btn = document.querySelector('#btn')
 
-        btn.addEventListener('click', ()=>{
+      const url = document
+        .querySelector("#btn")
+        .addEventListener("click", () => {
+          const name = document.querySelector(".name");
+          const addr = document.querySelector("#password").value;
+          const phno = document.querySelector(".phone").value;
+          const card = document.querySelector(".card");
+          const cvv = document.querySelector(".cvv");
+          const exp = document.querySelector(".expiry");
+          const btn = document.querySelector("#btn");
 
-          if(name.value == '' || addr.value == '' || phno.value == '' || card.value == '' || cvv.value == '' || exp.value == ''){
-            alert('Please dont leave any field empty')
-          }
-       else{
-          console.log(addr);
-        const dbref = ref(db);
-        get(child(dbref, "people/" + "Name"))
-        .then((snapshot)=>{
-          if(snapshot.exists()){
-            get(child(dbref, "user/" + snapshot.val().Name))
-            .then((snapshot)=>{
-              if(snapshot.exists()){
-                const name = snapshot.val().Name;
-                const order = snapshot.val().orders;
-                        update(child(dbref, "user/" +name), {
-                          Address: addr,
-                          orders: order+1,
-                          Phone: phno
-                        });
-                        window.location.href="../Profile"
-                } else {
-                  alert("No data found");
-                }
-              }).catch((error)=>{
-                alert(error)
-              }) 
+          btn.addEventListener("click", () => {
+            if (
+              name.value == "" ||
+              addr.value == "" ||
+              phno.value == "" ||
+              card.value == "" ||
+              cvv.value == "" ||
+              exp.value == ""
+            ) {
+              alert("Please dont leave any field empty");
             } else {
-              alert("No data found");
+              console.log(addr);
+              const dbref = ref(db);
+              get(child(dbref, "people/" + "Name"))
+                .then((snapshot) => {
+                  if (snapshot.exists()) {
+                    get(child(dbref, "user/" + snapshot.val().Name))
+                      .then((snapshot) => {
+                        if (snapshot.exists()) {
+                          const name = snapshot.val().Name;
+                          const order = snapshot.val().orders;
+                          update(child(dbref, "user/" + name), {
+                            Address: addr,
+                            orders: order + 1,
+                            Phone: phno,
+                          });
+                          window.location.href = "../Profile";
+                        } else {
+                          alert("No data found");
+                        }
+                      })
+                      .catch((error) => {
+                        alert(error);
+                      });
+                  } else {
+                    alert("No data found");
+                  }
+                })
+                .catch((error) => {
+                  alert(error);
+                });
             }
-          })
-          .catch((error)=>{
-            alert(error)
-          })
-        }
-        })
-      })
+          });
+        });
     </script>
   </body>
 </html>
