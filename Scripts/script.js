@@ -8,14 +8,14 @@ document.querySelector('#search-btn').onclick = () => {
   navbar.classList.remove('active');
 }
 
-let shoppingCart = document.querySelector('.shopping-cart');
+// let shoppingCart = document.querySelector('.shopping-cart');
 
-document.querySelector('#cart-btn').onclick = () => {
-  shoppingCart.classList.toggle('active');
-  searchForm.classList.remove('active');
-  loginForm.classList.remove('active');
-  navbar.classList.remove('active');
-}
+// document.querySelector('#cart-btn').onclick = () => {
+//   shoppingCart.classList.toggle('active');
+//   searchForm.classList.remove('active');
+//   loginForm.classList.remove('active');
+//   navbar.classList.remove('active');
+// }
 
 let loginForm = document.querySelector('.login-form');
 
