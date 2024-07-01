@@ -4,24 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FarmBuddy</title>
+    <title>GreenBasket</title>
 
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
     />
 
-    <!-- font awesome cdn link  -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
 
-    <!-- custom css file link  -->
     <link rel="stylesheet" href="./Styles/style.css" />
   </head>
   <body>
-    <!-- header section starts  -->
     <div class="spinnerContainer">
       <div class="spinner"></div>
       <div class="loader">
@@ -36,15 +33,14 @@
       </div>
     </div>
     <header class="header">
-      <a href="#" class="logo"> <i class="fas fa-seedling"></i> FarmBuddy </a>
+      <a href="#" class="logo"> <i class="fas fa-seedling"></i> GreenBasket </a>
 
       <nav class="navbar">
         <a href="#home">home</a>
         <a href="#features">features</a>
         <a href="#categories">categories</a>
         <a href="#products">products</a>
-        <a href="#learn">Learn</a>
-        <a href="#about">Team</a>
+       
         <a class="sin" href="./Sign-in/Index.html">Sign in/up</a>
       </nav>
 
@@ -56,9 +52,7 @@
       </div>
     </header>
 
-    <!-- header section ends -->
-
-    <!-- home section starts  -->
+    
     <div id="lod">
       <section class="home" id="home">
         <div class="content">
@@ -68,9 +62,7 @@
         </div>
       </section>
 
-      <!-- home section ends -->
-
-      <!-- features section starts  -->
+      
 
       <section class="features" id="features">
         <h1 class="heading">our <span>features</span></h1>
@@ -98,15 +90,13 @@
               src="https://www.ischool.berkeley.edu/sites/default/files/styles/fullscreen/public/sproject_teaser_image/reversed.jpg?itok=ShdqgpJr"
               alt=""
             />
-            <h3>Plant Disease Detection</h3>
-            <p>here, at farmBuddy disease detection made easy</p>
+            <h3>Organic Fertilizers</h3>
+            <p>Derived from natural sources like compost and manure</p>
           </div>
         </div>
       </section>
 
-      <!-- features section ends -->
-
-      <!-- categories section starts  -->
+    
 
       <section class="categories" id="categories">
         <h1 class="heading">product <span>categories</span></h1>
@@ -141,10 +131,7 @@
         </div>
       </section>
 
-      <!-- categories section ends -->
-
-      <!-- products section starts  -->
-
+     
       <section class="products" id="products">
         <h1 class="heading">our <span>products</span></h1>
 
@@ -163,6 +150,7 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
               </div>
+              <a href="./Cart" class="btn btn-cart-down">click here</a>
             </div>
 
             <div class="swiper-slide box">
@@ -178,164 +166,42 @@
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
+                
               </div>
+              <a href="./Cart" class="btn btn-cart-down">click here</a>
             </div>
 
             <div class="swiper-slide box">
-              <h3 font-size="20">
-                <br />
-                <br />for<br />
-                more<br />
-                products
-              </h3>
-              <br />
-              <br />
-
+              <img
+                src="https://m.media-amazon.com/images/I/61topuDsquL._SL1280_.jpg"
+                alt=""
+              />
+              <h3>Vermi Compost</h3>
+              <div class="price"></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+                
+              </div>
               <a href="./Cart" class="btn btn-cart-down">click here</a>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- products section ends -->
-
-      <!--learn section starts-->
-      <section class="learn" id="learn">
-        <h1 class="heading">Visit & <span>Learn</span></h1>
-
-        <div class="box-container">
-          <div class="box">
-            <img
-              src="https://www.ischool.berkeley.edu/sites/default/files/styles/fullscreen/public/sproject_teaser_image/reversed.jpg?itok=ShdqgpJr"
-              alt=""
-            />
-            <h3>Plant Disease Detection</h3>
-            <p>
-              In this digital era you can directly reach out to us and we will
-              help you to detect the disease in your plants.<br />
-              <a href="./Plants" class="btn">Click Here</a>
-            </p>
-          </div>
-
-          <div class="box">
-            <img
-              src="https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-              alt=""
-            />
-            <h3>Weather updates</h3>
-            <p>
-              we update weather reports for farmer's convinience to check daily
-              updates of weather and plan their farming accordingly.
-            </p>
-            <a href="./Weather" class="btn">Click Here</a>
-          </div>
-
-          <div class="box">
-            <img
-              src="https://images.unsplash.com/photo-1515524042669-de726ea3283d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2125&q=80"
-              alt=""
-            />
-            <h3>Own a Farm</h3>
-            <p>
-              we also make it easy to find the nearest land for lease for the
-              farmers to grow their crops.<br />
-            </p>
-            <a href="./Map" class="btn">Click Here</a>
-          </div>
-        </div>
-      </section>
-      <!--learn section ends-->
-
-      <!-- about section starts  -->
-
-      <section class="about" id="about">
-        <h1 class="heading">Our <span>Team</span></h1>
-
-        <div class="swiper about-slider">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide box">
-              <img
-                src="https://raw.githubusercontent.com/STRIDER1512/FarmBuddy/main/FarmBuddy/images/Srikar%20Tenneti.jpg"
-                alt=""
-              />
-              <p>
-                "As the CEO of FarmBuddy, my goal is to create technology that
-                helps our farmers succeed. We're constantly exploring new ideas
-                and pushing the boundaries of what's possible,we know that every
-                improvement we make can have a real impact on the lives of
-                farmers and the health of our environment."
-              </p>
-              <a href="https://www.linkedin.com/in/srikar-tenneti-849522235/"
-                >Srikar Tenneti-CEO</a
-              >
-            </div>
-
-            <div class="swiper-slide box">
-              <img
-                src="https://raw.githubusercontent.com/STRIDER1512/FarmBuddy/main/FarmBuddy/images/sriraj%20tata.jpeg"
-                alt=""
-              />
-              <p>
-                "As the COO of FarmBuddy,I'm committed to ensuring that our
-                customers receive the highest quality products and services. We
-                strive to make our farm-to-table model efficient and
-                sustainable, and are constantly exploring new ways to improve
-                our operations."
-              </p>
-              <a href="https://www.linkedin.com/in/sriraj-tata-0499b7228/"
-                >Sriraj Tata-COO</a
-              >
-            </div>
-
-            <div class="swiper-slide box">
-              <img
-                src="https://raw.githubusercontent.com/STRIDER1512/FarmBuddy/main/FarmBuddy/images/sudhish.jpg"
-                alt=""
-              />
-              <p>
-                "As the CTO of FarmBuddy, I am honored to be part of a team that
-                is dedicated to creating a sustainable and efficient farming
-                ecosystem. Our mission is to revolutionize the way food is
-                grown, distributed and consumed around the world, and to help
-                small-scale farmers thrive in the digital age."
-              </p>
-              <a href="https://www.linkedin.com/in/sudhish-amiti-491805224/"
-                >Sudhish Amiti-CTO</a
-              >
-            </div>
-
-            <div class="swiper-slide box">
-              <img
-                src="https://raw.githubusercontent.com/STRIDER1512/FarmBuddy/main/FarmBuddy/images/himaja.jpg"
-                alt=""
-              />
-              <p>
-                "As the CFO of FarmBuddy, I am proud to be a part of a team that
-                is committed to creating a positive impact in the agricultural
-                industry. Our goal is to ensure that the farmers we work with
-                have access to the necessary resources and funding to grow their
-                businesses sustainably.
-              </p>
-              <a href="https://www.linkedin.com/in/himaja-vendra-48581324b/"
-                >Himaja Vendra-CFO</a
-              >
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- about section ends -->
-
-      <!-- footer section starts  -->
+    
 
       <section class="footer">
         <div class="box-container">
           <div class="box">
-            <h3>FarmBuddy <i class="fas fa-seedling"></i></h3>
+            <h3>GreenBasket <i class="fas fa-seedling"></i></h3>
             <p>From our farm to your home without any intermediaries</p>
             <div class="share">
               <a
-                href="https://github.com/STRIDER1512/FarmBuddy"
+                href="https://github.com"
                 class="fab fab fa-linkedin"
               ></a>
               <a
@@ -344,20 +210,10 @@
               ></a>
               <a href="#" class="fas fa-phone"></a>
               <a
-                href="https://goo.gl/maps/ohjevE4orfM8WPbJ6"
+                href="https://goo.gl/maps"
                 class="fas fa-map-marker-alt"
               ></a>
-              <div>
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1896.16918784813!2d83.41972423862734!3d18.102158695728058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3be54aa8834377%3A0xc844be10c2ca754c!2sOm%20Shakti%20Towers!5e0!3m2!1sen!2sin!4v1681492065885!5m2!1sen!2sin"
-                  width="300"
-                  height="150"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </div>
+              
             </div>
           </div>
 
@@ -375,37 +231,20 @@
             <a href="./Cart" class="links">
               <i class="fas fa-arrow-right"></i> products
             </a>
-            <a href="#learn" class="links">
-              <i class="fas fa-arrow-right"></i> Learn
-            </a>
-            <a href="#about" class="links">
-              <i class="fas fa-arrow-right"></i> Team
-            </a>
-            <a href="./Sign-up" class="links sig">
-              <i class="fas fa-arrow-right"></i> Sign in/up
-            </a>
           </div>
 
           <div class="box">
-            <h3>newsletter</h3>
-            <p>subscribe for latest updates</p>
-            <input type="email" placeholder="your email" class="email ema" />
-            <input type="submit" value="subscribe" class="btn sub" />
-            <img
-              src="https://images.unsplash.com/photo-1525011268546-bf3f9b007f6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmlnaHQlMjBtYXJrfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
-              class="payment-img"
-              alt=""
-            />
+            <h3>Feedback</h3>
+            <p>For any Queries</p>
+            <input type="text" placeholder="Write here" class="email ema" />
+            <input type="submit" value="submit" class="btn sub" />
+            
           </div>
         </div>
       </section>
     </div>
 
-    <!-- <iframe width="560" height="315" style="display: none;" src="https://www.youtube.com/embed/hdI2bqOjy3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  <iframe width="560" height="315" style="display: none;" src="https://www.youtube.com/embed/hdI2bqOjy3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  <iframe width="560" height="315" style="display: none;" src="https://www.youtube.com/embed/hdI2bqOjy3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-
-    <!-- footer section ends -->
+    
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
@@ -435,7 +274,7 @@
   messagingSenderId: "246405477593",
   appId: "1:246405477593:web:76c615bf7f242294317ac8"
 };
-      // Initialize Firebase
+      
       const app = initializeApp(firebaseConfig);
       const db = getDatabase();
 
@@ -444,8 +283,7 @@
 
         get(child(dbref, "people/" + "Name")).then((snapshot) => {
           if (snapshot.exists()) {
-            //console.log(snapshot.val().status);
-            //console.log(snapshot.val().Name);
+            
             if (snapshot.val().status === "true") {
               document.querySelector(".sin").style.display = "none";
               document.querySelector("#login-btn").style.display = "visible";
@@ -475,12 +313,9 @@
       }
 
       GetData();
-      // Get the cart button element
       var cartBtn = document.getElementById("cart-btn");
 
-      // Add click event listener
       cartBtn.addEventListener("click", function () {
-        // Redirect to the sample page URL
         window.location.href = "./Cart/index.html";
       });
 
@@ -490,14 +325,9 @@
       });
     </script>
 
-    <!-- custom js file link  -->
+    
     <script src="./Scripts/script.js"></script>
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1%22%3E"></script>
-    <df-messenger
-      intent="WELCOME"
-      chat-title="FarmBuddy"
-      agent-id="e1f83922-37a6-488b-9c06-b8cc656319b3"
-      language-code="en"
-    ></df-messenger>
+    
   </body>
 </html>

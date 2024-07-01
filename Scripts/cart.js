@@ -68,7 +68,7 @@ function addItemFunction(e) {
   const name = e.target.parentElement.previousElementSibling.textContent;
   const desc = e.target.parentElement.children[0].textContent;
   let price = e.target.parentElement.children[1].textContent;
-  price = price.replace("Price: $", "");
+  price = price.replace("Price: ", "");
   const item = new CartItem(name, desc, img, price);
   LocalCart.addItemToLocalCart(id, item);
   console.log(price);
@@ -108,17 +108,17 @@ function updateCartUI() {
     const cartItem = document.createElement("div");
     cartItem.classList.add("cart-item");
     let price = value.price * value.quantity;
-    price = Math.round(price * 100) / 100;
+    // price = Math.round(price * 100) / 100
     count += 1;
     total += price;
-    total = Math.round(total * 100) / 100;
+    // total = Math.round(total * 100) / 100;
     cartItem.innerHTML = `
         <img src="${value.img}"> 
                        <div class="details">
                            <h3>${value.name}</h3>
                            <p>${value.desc}
                             <span class="quantity">Quantity: ${value.quantity}</span>
-                               <span class="price">Price: $ ${price}</span>
+                               <span class="price">Price:  ${price}</span>
                            </p>
                        </div>
                        <div class="cancel"><i class="fas fa-window-close"></i></div>
@@ -134,7 +134,7 @@ function updateCartUI() {
     let root = document.querySelector(":root");
     root.style.setProperty("--after-content", `"${count}"`);
     const subtotal = document.querySelector(".subtotal");
-    subtotal.innerHTML = `SubTotal: $ ${total}`;
+    subtotal.innerHTML = `SubTotal:  ${total}`;
     const profile = document.querySelector(".checkout");
     profile.addEventListener("click", function () {
       window.location.href = "../Checkout";
