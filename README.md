@@ -1,5 +1,8 @@
 # Green Basket
 
+for complete project details:
+https://drive.google.com/file/d/1Gv1ZsCZDFlxme19v6-8Ov7pTCrl9m6bV/view?usp=sharing
+
 GreenBasket stands as a trailblazing e-commerce platform committed to
 revolutionizing the organic produce market. At its core, the platform facilitates a direct
 and transparent connection between farmers and consumers, ensuring fair compensation
